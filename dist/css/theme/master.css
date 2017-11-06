@@ -1,0 +1,83 @@
+/*!
+ *   theme name: master
+ *   Author: Dhiraj Tekade
+ *	 Website: 
+ *   License:
+ *	 Purpose: enhancedment in default theme
+ */
+/*
+ * Core: General Layout Style
+ * -------------------------
+ */
+ 
+ /*login*/
+.login-page, .register-page { 
+	/*background: rgb(185,210,224); */
+	background: -webkit-linear-gradient(left,#C0ACFF,#E26EE8); /*Safari 5.1-6*/
+	background: -o-linear-gradient(right,#C0ACFF,#E26EE8); /*Opera 11.1-12*/
+	background: -moz-linear-gradient(right,#C0ACFF,#E26EE8); /*Fx 3.6-15*/
+	background: linear-gradient(to right, #C0ACFF, #E26EE8); /*Standard*/
+}
+.login-box {
+	margin: 0% auto;
+	padding-top: 5%;
+}
+.box-header .box-title { font-weight: bold;}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+}
+.login-box-body {
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.45);
+}
+.login-box-body .input-group .input-group-addon {
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+}
+.login-box-body .form-control {
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+}
+.icheckbox_square-blue {
+	border: 2px solid #2489C5 !important;
+	border-radius:5px;
+	
+}
+
+/*main-header*/
+.navbar-toggleable-md {
+	padding:0px !important;
+	line-height:0px;
+}
+/*@media (min-width: 768px)*/
+.navbar-nav>li {
+	float: left;
+}
+.navbar {
+    position: relative;
+}
+.main-header .navbar-custom-menu, .main-header .navbar-right {
+    float: right;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+/*documentList*/
+.box {
+	margin-left: 15px !important;
+	margin-right: 15px !important;
+}	
+
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+}
