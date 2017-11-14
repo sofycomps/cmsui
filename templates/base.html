@@ -412,8 +412,8 @@
          });
          
          
-         function docViewWindow() {
-			var myWindow = window.open("doc-view.html", "", "width=500,height=500");
+         function docViewWindow(bookname) {// bookid (as of now bookname)
+			var myWindow = window.open("docView", "", "width=1500,height=700");
 		 }
        </script>
       {% block script %} {% endblock %}
